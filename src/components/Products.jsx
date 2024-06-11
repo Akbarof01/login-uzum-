@@ -14,7 +14,7 @@ function Products() {
             {
                 data.length ? data.map(({ id, title, price, images }) => (
 
-                    <div key={id} className="hidden sm:flex :w-52 card w-72 bg-base-100 shadow-xl mb-10">
+                    <div key={id} className="hidden sm:flex min-w-24  card w-72 bg-base-100 shadow-xl mb-10">
                         <figure><img src={images} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">

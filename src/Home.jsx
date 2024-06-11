@@ -6,7 +6,7 @@ import { FcHome } from "react-icons/fc";
 import { FcBullish } from "react-icons/fc";
 import { FcInTransit } from "react-icons/fc";
 import { FcLinux } from "react-icons/fc";
-import Products from "./components/Products";
+import Modal from './Modal'
 import Corusel from "./components/Corusel";
 import Title from "./components/Title";
 import { useDispatch, useSelector } from "react-redux";
@@ -105,7 +105,7 @@ function App() {
         <div>
       <Corusel /></div>
       <Title />
-      <Products />
+       <Modal />
       </div>
     </div>
     
